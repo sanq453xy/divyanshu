@@ -28,3 +28,10 @@ const phrases = [
     }
 
     type();
+
+document.getElementById("githubBtn").addEventListener("click", function () {
+    window.open("https://github.com/sanq453xy/divyanshu", "_blank");
+  });
+document.getElementById("linkedinBtn").addEventListener("click", function () {
+    window.open("https://www.linkedin.com/in/divyanshukumar1051/", "_blank");
+  });
