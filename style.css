@@ -57,7 +57,7 @@ body {
   justify-content: center;
   
 }
-@media(max-width : 544px){
+@media(max-width : 480px){
   .hero-right{
     justify-content: flex-start;
   }
@@ -110,20 +110,21 @@ body {
 }
 
 .name {
-  font-size: 60px;
+  /* margin-right: 70px; */
+  font-size: 40px;
   font-weight: 700;
   color: #00ffe7;
   margin-bottom: 20px;
-  text-align: left;
+
 }
 
 .typing-wrapper {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   color: #0ff;
   min-height: 1.5em;
-  min-width: 342px;
-  margin-left: 35px;
+  /* min-width: 342px; */
+  /* margin-left: 50px */
   
 }
 
