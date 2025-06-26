@@ -49,11 +49,13 @@ body {
   flex-wrap: wrap;
   min-height: 80vh;
 }
+
 .hero-right{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
 }
 @media(max-width : 544px){
   .hero-right{
@@ -62,7 +64,7 @@ body {
 }
 .myBtns{
   width: 55%;
-  min-width: max-content;
+  min-width: 150px;
   /* margin-right: 30px; */
   backdrop-filter: blur(20px);
   display: flex;
@@ -72,7 +74,7 @@ body {
   align-items: center;
   border: 3px solid #00ffe7;
   border-radius: 20px;
-  margin: 10px;
+  margin: 6px;
   padding: 8px 20px;
   transition: transform 0.3s ease;
 }
@@ -108,17 +110,21 @@ body {
 }
 
 .name {
-  font-size: 48px;
+  font-size: 60px;
   font-weight: 700;
   color: #00ffe7;
   margin-bottom: 20px;
+  text-align: left;
 }
 
 .typing-wrapper {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   color: #0ff;
   min-height: 1.5em;
+  min-width: 342px;
+  margin-left: 35px;
+  
 }
 
 .cursor {
@@ -238,16 +244,5 @@ footer {
   font-size: 14px;
 }
 
-.foot img {
-  height: 22px;
-  
-  filter: grayscale(1) brightness(1.1);
-  transition: transform 0.3s, filter 0.3s;
-}
-
-.foot img:hover {
-  transform: scale(1.05);
-  filter: brightness(1.5);
-}
 
 
