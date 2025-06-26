@@ -127,6 +127,30 @@ body {
   /* margin-left: 50px */
   
 }
+@media(max-width:942px){
+  .name{
+    font-size: 50px;
+  }
+  .typing-wrapper{
+    font-size: 22px;
+  }
+}
+@media(max-width:727px){
+  .name{
+    font-size: 45px;
+  }
+  .typing-wrapper{
+    font-size: 19px;
+  }
+}
+@media(max-width:480px){
+  .name{
+    font-size: 40px;
+  }
+  .typing-wrapper{
+    font-size: 16px;
+  }
+}
 
 .cursor {
   display: inline-block;
