@@ -36,7 +36,7 @@ body {
 }
 
 .navbar a:hover {
-  color: #00ffe7;
+  color: #00BFFF;
 }
 
 .hero {
@@ -71,7 +71,7 @@ body {
   overflow: hidden;
   justify-content: center;
   align-items: center;
-  border: 3px solid #00ffe7;
+  border: 3px solid #00BFFF;
   border-radius: 20px;
   margin: 6px;
   padding: 8px 20px;
@@ -81,12 +81,12 @@ body {
 .myBtns:hover {
   backdrop-filter: blur(60px);
   cursor: pointer;
-  box-shadow: 1px 1px 1px #00ffe7;
+  box-shadow: 1px 1px 1px #00BFFF;
   transform: scale(1.03);
 }
 
 .myBtns:active {
-  background-color: #00ffe7;
+  background-color: #00BFFF;
   color: black;
 }
 
@@ -115,14 +115,14 @@ body {
 .name {
   font-size: 60px;
   font-weight: 700;
-  color: #00ffe7;
+  color: #00BFFF;
   margin-bottom: 20px;
 }
 
 .typing-wrapper {
   font-size: 28px;
   font-weight: 600;
-  color: #0ff;
+  color: #00BFFF;
   min-height: 1.5em;
 }
 
@@ -166,7 +166,7 @@ body {
   display: inline-block;
   width: 3px;
   height: 1em;
-  background: #0ff;
+  background: #00BFFF;
   margin-left: 4px;
   animation: blink 0.8s infinite;
 }
@@ -196,7 +196,7 @@ body {
 
 .about h1 {
   font-size: 36px;
-  color: #00ffe7;
+  color: #00BFFF;
   margin-bottom: 20px;
 }
 
@@ -229,17 +229,17 @@ body {
   border-radius: 8px;
   padding: 25px;
   width: 300px;
-  box-shadow: 0 2px 10px rgba(0,255,255,0.1);
+  box-shadow: 0 2px 10px rgba(0,191,255,0.1);
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 8px 20px rgba(0,255,255,0.3);
+  box-shadow: 0 8px 20px rgba(0,191,255,0.3);
 }
 
 .card h3 {
-  color: #00ffe7;
+  color: #00BFFF;
   margin-bottom: 12px;
 }
 
