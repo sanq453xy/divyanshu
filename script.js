@@ -1,7 +1,7 @@
 const phrases = [
-      'print("Hello World")',
-      'cout << "Hello World";',
-      'console.log("Hello World");'
+      'Coder',
+      'Creator',
+      'Web Developer'
     ];
     const txt = document.getElementById("typing-text");
     const cursor = document.querySelector(".cursor");
